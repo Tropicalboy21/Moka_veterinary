@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 1. Archivo reset css -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- 3. Estilos personalizados -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/ubicacion.css" />
+    <link rel="stylesheet" href="css/nosotros.css" />
+    <link rel="stylesheet" href="css/servicios.css" />
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+
+    <!-- 4. Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap" rel="stylesheet">
+
+    <!-- fony awesome -->
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+    <title>Moka</title>
+</head>
+
+<body>
+    <!-- Manfred  -->
+    <header id="nav-menu" style="display: flex;">
+        <div class="container-nav">
+          <div class="nav-start">
+            <a class="logo" href="/">
+              <img src="./imgs/logo-vet.png" width="60" height="60" alt="Inc Logo" />
+            </a>
+            <nav class="menu">
+              <ul class="menu-bar">
+    
+                <li><a class="nav-link" href="#invi-nav">Inicio</a></li>
+                <li><a class="nav-link" href="#invi-nav-1">Servicios</a></li>
+                <li><a class="nav-link" href="#invi-nav-2">Sobre nostros</a></li>
+                <li><a class="nav-link" href="#invi-nav-3">Ubicación</a></li>
+                <li><a class="nav-link" href="#invi-nav-4">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+      
+          <div class="nav-end">
+            <div class="right-container">
+              <button type="submit" onclick="goTo()" class="btn btn-primary">Iniciar Sesión</button>
+            </div>
+      
+            <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+              <i class="bx bx-menu" style="color: #167362;" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+    <!-- Todos -->
+    <div id="invi-nav"></div>
+    <section id="sct-empresa">
+        <div class="index-text">
+            <div class="text-box">
+                <h2 class="index-title">Veterinaria</h2>
+            </div>
+                <div class="index-subtitle">MOKA</div>
+            <div>
+                <p>
+                    Somos una Clínica Veterinaria en Costa Rica. Abiertos las 24 horas con presencia médica en todo momento. Contamos con especialistas de guardia con la mejor tecnología disponible, para atender a su mascota cuando más lo necesita.
+                </p>
+            </div>
+        </div>
+        <div class="index-img">
+            <img src="imgs/vet-img.png" alt="" />
+        </div>
+    </section>
+
+    <div id="invi-nav-1"></div>
+
+    <!-- Jorge -->
+
+    <section id="servicio">
+        <h1 class="title-s">Servicios </h1>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_consulta.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Consulta Veterinaria</h2>
+                            <p class="description">Contamos con excelentes médicos veterinarios para el análisis de cualquier padecimiento que su mascota presente.</p>
+
+
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_vacunacion.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Vacunación</h2>
+                            <p class="description">Contamos con diferentes tipos de vacunas para garantizar el bienestar de su mascota y prologar su vida.</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_lavado.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Limpieza dental</h2>
+                            <p class="description">Tenemos un excelente centro de limpieza para la higiene de su mascota lo que previene infecciones.</p>
+
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_hospital.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Hospitalización</h2>
+                            <p class="description">Contamos con una excelente instalación de recuperación para su mascota, sea por emergencia oun procedimiento quirúrgico.</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_traumatologia.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Traumatología</h2>
+                            <p class="description">Contamos con especialistas e instrumental para cubrir los procedimientos de un sistema Radiológico Digital que permite el quirúrgico.</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_peluquero.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Peluquería</h2>
+                            <p class="description">Tenemos excelentes estilistas para su mascota, contamos con profesional en bañado, peluquería y estilismo en nuestro local.</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_examenes.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Exámenes</h2>
+                            <p class="description">Realizamos diferentes exámenes veterinarios, para corroborar la salud de su mascota y diagnóstico de enfermedades.</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="imgs/_hospedaje.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Hospedaje para mascotas</h2>
+                            <p class="description">Tenemos instalaciones especialmente preparadas para alojar a sus mascotas con la mejor comodidad, servicio y atención..</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <div id="invi-nav-2"></div>
+
+    <!-- Tamara -->
+    <section id="sobre-nosotros ">
+        <h1 class="title-n">Sobre nosotros</h1>
+        <div class="grupo-sobre-nosotros">
+            <div class="grupo">
+                <div class="img-box">
+                    <img src="imgs/yanira-06.png " alt="Yanira Arroyo " />
+                </div>
+                <h2>Yanira Arroyo</h2>
+                <p>
+                    Yanira posee un máster en Anestesiología Veterinaria en Especies Mayores otorgafo por la Universidad Tecnológica de Costa Rica. Además posee más de 30 años de experiencia como médica veterinaria.
+                </p>
+            </div>
+            <div class="grupo">
+                <div class="img-box">
+                    <img src="imgs/anna-07.png " alt="Anna Navarro " />
+                </div>
+                <h2>Anna Navarro</h2>
+                <p>
+                    Con más de 25 años de experiencia, Anna Navarro se especializó en medicina general por la Universidad de la Plata, Argentina.
+                </p>
+            </div>
+            <div class="grupo">
+                <div class="img-box">
+                    <img src="imgs/Francisco-08.png " alt="Francisco-Jose Blanco " />
+                </div>
+                <h2>Francisco-José Blanco</h2>
+                <p>
+                    Graduado en la Universidad Nacional de Costa Rica y graduado en rehabilitación, Francisco tiene mas de 18 años de experiencia buscando lo mejor para sus pacientes.
+                </p>
+            </div>
+            <div class="grupo">
+                <div class="img-box">
+                    <img src="imgs/Orlando-09.png " alt="Orlando Cordoba " />
+                </div>
+                <h2>Orlando Cordoba</h2>
+                <p>
+                    Con más de 13 años de experiencia en el trato con animales, Orlando posee un técnico en enfermería veterinaria por la Uiversidad Neotropical.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="invi-nav-3"></div>
+
+    <!-- Manfred -->
+    <section class="parte-man">
+        <h1 class="title-u ">Ubicación</h1>
+        <div class="ubicacion">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31440.566411687963!2d-84.12325909806917!3d9.928061643733985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e342c50d15c5%3A0xe6746a6a9f11b882!2sSan%20Jos%C3%A9%2C%20Costa%20Rica!5e0!3m2!1ses!2sus!4v1657574395087!5m2!1ses!2sus "
+                    width="100% " height="100% " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+
+            </div>
+            <div class="direccion ">
+                <h2>Dirección</h2>
+                <div>
+                    <p>Del Centro Comercial Lomas del Sol, 75 m norte de la Soda El Amanecer. Curridabat. San José, Costa Rica.</p>
+                    <div>
+                        <img src="imgs/vaca.png " alt="vaca">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="invi-nav-4"></div>
+
+    <!-- Lenin -->
+    <h1 class="title-c">Contacto</h1>
+    <section id="sct-contacto">
+        <div class="sct-area">
+            <div class="contact-info">
+                <p class="contact-text">
+                    Cualquier duda o consulta, no dudes en contactarnos. En caso de querer agendar una cita, recomendamos crear una cuenta dando click en el botón de iniciar sesión.
+                </p>
+                <div class="info">
+                    <div>
+                        <h2 class="label">Teléfono:</h2>
+                        <h3 class="contact-text">+506 8284-8348</h3>
+                        <h2 class="label">Correo Electrónico:</h2>
+                        <h3 class="contact-text">clinica-moka@gmail.com</h3>
+                        <h2 class="label">Horario de atención:</h2>
+                        <h3 class="contact-text">Asistencia las 24/7</h3>
+                    </div>
+                    <div class="contact-img">
+                        <img src="imgs/logo-vet.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="contactArea">
+                <div class="warp-div">
+                    <form action="">
+                        <div class="container">
+                            <h1>Envíanos un mensaje....</h1>
+                            <div class="input">
+                                <input type="text" placeholder="Nombre" name="name" required />
+                                <input type="text" placeholder="Apellido" name="lastName" required />
+                            </div>
+                            <div class="input-2">
+                                <input type="email" placeholder="Correo Electrónico" name="email" required />
+                            </div>
+                            <div class="clearfix">
+                                <textarea name="message" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="submitbtn">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="vet-footer">
+        <div class="footer">
+            <div class="icons">
+                <div class="col">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="col">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="col">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <nav>
+                <a href="#invi-nav">Inicio</a>
+                <a href="#invi-nav-1">Servicios</a>
+                <a href="#invi-nav-2">Sobre Nostros</a>
+                <a href="#invi-nav-3">Ubicación</a>
+                <a href="#invi-nav-4">Contacto</a>
+            </nav>
+            <div style="width: 130px; margin: 0 auto 0 auto;"><a href="/Frontend/NovaTech.cr/index.html" class="copyright" style="text-decoration: none;">Copyright &copy; 2022 NovaTech</a></div>
+        </div>
+    </footer>
+
+    <script>
+        // when the user scroll the page execute my function.
+        window.onscroll = function() {
+            myFunction();
+        };
+
+        // get the navbar.
+        var navbar = document.getElementById("nav-menu");
+
+        // get offset position of the navbar.
+        var sticky = navbar.offsetTop;
+
+        // Add the "sticky" class to the navbar when you reach its scroll position. remove "sticky" when you leave the scroll position.
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        // go to the login page
+        function goTo() {
+            window.location.href = './login.html'
+        }
+     </script>
+    <script></script>
+    <script src="./js/header.js"></script>
+        <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

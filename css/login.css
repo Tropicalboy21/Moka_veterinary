@@ -1,0 +1,118 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-gold {
+    background: linear-gradient(90deg, rgb(217, 217, 217) 40%, rgb(2, 115, 83) 40%);
+    height: 705px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-logo {
+    margin: 0 auto 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.login-logo img {
+    width: 100%;
+}
+
+.login-area {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.login-input {
+    margin: auto 0 auto 0;
+    width: 66%;
+    height: 350px;
+    color: rgb(217, 217, 217);
+}
+
+.login-graphs {
+    width: 34%;
+    height: 300px;
+    text-align: center;
+    margin: auto 0 auto 0;
+}
+
+.login-graphs h1 {
+    color: #F25D5E;
+    font-size: 4rem;
+}
+
+.login-graphs p {
+    color: #027353;
+    font-size: 1.2 rem;
+    padding: 20px;
+}
+
+.login-input h1 {
+    color: #D9D9D9;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.5rem;
+    padding: 15px;
+}
+
+.input-box {
+    width: 310px;
+    margin: 0 auto;
+}
+
+input[type="email"],
+input[type="password"] {
+    height: 10px;
+    width: 280px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 15px;
+    margin: 5px 0px 22px;
+    background: rgb(217, 217, 217);
+}
+
+.button-box {
+    width: 310px;
+    margin: 0px auto;
+}
+
+.ingresar {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    width: 314px;
+    justify-content: center;
+    background-color: rgb(217, 217, 217);
+    padding: 11px;
+}
+
+.ingresar:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+.sign-in {
+    text-align: center;
+    width: 259px;
+    margin: 20px auto 0px;
+}
+
+.sign-in a {
+    color: rgb(242, 93, 94);
+    text-decoration: none;
+}
+
+.sign-in a:hover {
+    color: #fc4567;
+    text-decoration: none;
+}
+
+.input-error {
+    border: 3px solid red
+}

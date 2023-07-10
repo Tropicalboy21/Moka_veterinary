@@ -1,0 +1,65 @@
+.parte-man {
+    font-family: 'Khand', sans-serif;
+}
+
+.ubicacion {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    background-color: #BAB8B8;
+    padding-right: 3%;
+}
+
+.direccion {
+    align-items: center;
+    justify-content: center;
+}
+
+.direccion h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    color: #F25D5E;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.direccion p {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: #167362;
+    font-size: 25px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.title-u {
+    padding-left: 12px;
+    font-size: 5.2rem;
+    color: #167362;
+    background-color: #BAB8B8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#invi-nav-4 {
+    background-color: #BAB8B8;
+    height: 80px;
+}
+
+@media (max-width: 600px) {
+    .ubicacion {
+        flex-direction: column;
+    }
+
+    .title-u {
+        font-size: 65px;
+    }
+}

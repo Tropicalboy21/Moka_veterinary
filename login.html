@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css styles -->
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="nav-menu" style="display: flex; justify-content: space-between;">
+        <div class="container-nav">
+        <div class="nav-start">
+            <a class="logo" href="/">
+                <img src="./imgs/logo-vet.png" width="60" height="60" alt="Inc Logo" />
+            </a>
+        </div>
+        <a href="index.html">Inicio</a>
+        </div>
+    </header>
+    <section>
+        <div class="card bg-gold">
+            <div class="login-area bg-login">
+                <div class="login-graphs">
+                    <div class="login-logo"><img src="imgs/logo-vet.png" alt="" /></div>
+                    <div>
+                        <h1>MokaApp</h1>
+                    </div>
+                    <div>
+                        <p>
+                            La mejor clinica veterinaria en Costa Rica. Especializada en el completo bienestar de su mascota.
+                        </p>
+                    </div>
+                </div>
+                <div class="login-input">
+                    <div>
+                        <h1>Iniciar Sesión</h1>
+                    </div>
+                    <div>
+                        <form action="">
+                            <div class="input-box">
+                                <label for="">Correo Electrónico</label>
+                                <div><input type="email" id="txt-correo" /></div>
+                            </div>
+                            <div class="input-box">
+                                <label for="">Contraseña</label>
+                                <div><input type="password" id="txt-password" /></div>
+                            </div>
+                            <div class="button-box">
+                                <button class="ingresar" type="button" id="btn-ingresar">
+                    Ingresar
+                  </button>
+                            </div>
+                        </form>
+                        <div class="sign-in" style="width: 259px">
+                            <label for="">¿No estás registrado? </label>
+                            <a href="/Frontend/Moka/registro-cliente.html">Crear cuenta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/Frontend/MokaApp/js/js-general/servicio-general.js"></script>
+    <script src="/Frontend/Moka/js/inicio-sesion.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./header.js"></script>
+</body>
+
+</html>
