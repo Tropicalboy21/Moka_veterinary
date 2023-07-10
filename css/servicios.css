@@ -1,25 +1,25 @@
 #servicio {
     background-color: #BAB8B8;
     height: 620px;
-    justify-content: space-evenly;
 }
 
 .slide-container {
     max-width: 1120px;
-    width: 80%;
+    width: 90%;
     padding: 40px 0;
-    height: 400px;
+    height: auto;
 }
 
 .slide-content {
-    margin: 0 40px;
+    margin: 50px;
     overflow: hidden;
     border-radius: 25px;
 }
 
 .card {
-    border-radius: 25px;
+    border-radius: 23px;
     background-color: #D9D9D9;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .image-content,
@@ -86,7 +86,7 @@
 }
 
 .description {
-    font-size: 19px;
+    font-size: 25px;
     color: #707070;
     text-align: center;
 }
@@ -140,7 +140,7 @@
 
 @media screen and (max-width: 768px) {
     .slide-content {
-        margin: 0 10px;
+        margin: 0 10spx;
     }
 
     .swiper-navBtn {
