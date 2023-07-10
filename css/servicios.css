@@ -8,7 +8,7 @@
     max-width: 1120px;
     width: 80%;
     padding: 40px 0;
-   height: 400px;
+    height: 400px;
 }
 
 .slide-content {
@@ -80,13 +80,13 @@
 }
 
 .name {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 500;
     color: #333;
 }
 
 .description {
-    font-size: 14px;
+    font-size: 19px;
     color: #707070;
     text-align: center;
 }
